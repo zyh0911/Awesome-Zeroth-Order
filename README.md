@@ -102,7 +102,7 @@ Additionally, if you want to have any other issue, please add this wechat group.
 | 2025/11  | [VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Model](https://www.arxiv.org/abs/2511.11007)                                                            | <img width="700" alt="image" src="img/vlm/2511_vismem.png">    | [Github](https://github.com/YU-deep/VisMem)                   |
 | 2025/11  | [Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens](https://arxiv.org/abs/2511.19418)                                           | <img width="700" alt="image" src="img/vlm/2511_covt.png">      | [Github](https://github.com/Wakals/CoVT)                      |
 | 2025/11  | [Monet: Reasoning in Latent Visual Space Beyond Image and Language](https://arxiv.org/abs/2511.21395)                                                                      | <img width="700" alt="image" src="img/vlm/2511_monet.png">     | [Github](https://github.com/NOVAglow646/)                     |
-
+| 2025/12  | [Interleaved Latent Visual Reasoning with Selective Perceptual Modeling](https://arxiv.org/abs/2512.05665v1)                                                               | <img width="700" alt="image" src="img/vlm/2512_ilvr.png">      | [Github](https://github.com/XD111ds/ILVR)                     |
 
 ### MAS-based
 | Date     | Paper Title                                                                                                                                               | Introduction                                                     | Code                                             |
