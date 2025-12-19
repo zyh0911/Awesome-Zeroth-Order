@@ -1,125 +1,83 @@
 <div align="center">
     <h1 style="display: inline-flex; align-items: center;">
         <img src="img/static/icon.png" alt="icon" style="width: 32px; height: 32px; margin-right: 8px;">
-        Awesome Latent Space
+        Awesome Zeroth-Order
     </h1>
 </div>
 
 <p align="center">
     <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome list badge"></a>
-    <a href="https://github.com/YU-deep/Awesome-Latent-Space/stargazers"><img src="https://img.shields.io/github/stars/YU-deep/Awesome-Latent-Space?style=social" alt="GitHub stars"></a>
+    <a href="https://github.com/yihangzu/Awesome-Zeroth-Order/stargazers"><img src="https://img.shields.io/github/stars/yihangzu/Awesome-Zeroth-Order?style=social" alt="GitHub stars"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
     <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
 </p>
 
-This repository manually collects works in **latent space**, which will be continuously updated.
+This repository manually collects works in **zeroth-order optimization**, which will be continuously updated.
 
 
 ## 📖 News
-**[2025/11/30]** We release the initial version!
+**[2025/12/18]** We release the initial version!
 
 ## 🌟 Overview
-Here, we classify all the latent space based methods two categories, and sort by date in ascending order:
+Here, we classify all the zeroth-order optimization based methods into three categories, and sort by date in ascending order:
 - [📖 News](#-news)
 - [🌟 Overview](#-overview)
 - [🤝 Contributing](#-contributing)
 - [🔥 Methods](#-methods)
-  - [LLM-based](#llm-based)
-  - [VLM-based](#vlm-based)
-  - [MAS-based](#mas-based)
+  - [Algorithmic Improvement](#algorithmic-improvement)
+  - [Hardware Acceleration](#hardware-acceleration)
+  - [Application](#application)
 
 
 ## 🤝 Contributing
 We warmly welcome contributions of excellent resources you find via **pull request**. Please follow the instruction in **CONTRIBUTING.md** if you want to make one.
-Additionally, if you want to have any other issue, please add this wechat group.
-
-<img width="200" alt="image" src="img/static/wechat_group.jpg">
-
-
-
-
-
-
-
-
+Additionally, if you want to have any other issue, please add my wechat: Aquila-911.
 
 ## 🔥 Methods
-### LLM-based
 
-| Date    | Paper Title                                                                                                                                                                                                    | Introduction                                                        | Code                                                                                       |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| 2024/11 | [Language Models are Hidden Reasoners: Unlocking Latent Reasoning Capabilities via Self-Rewarding](https://arxiv.org/abs/2411.04282)                                                                           | <img width="700" alt="image" src="img/llm/2411_latro.png">          | [Github](https://github.com/SalesforceAIResearch/LaTRO)                                    |
-| 2024/12 | ![COLM'25](https://img.shields.io/badge/COLM'25-f1b800) <br/> [Training Large Language Models to Reason in a Continuous Latent Space](https://arxiv.org/abs/2412.06769)                                        | <img width="700" alt="image" src="img/llm/2412_coconut.png">        | [Github](https://github.com/facebookresearch/coconut)                                      |
-| 2024/12 | ![ICML'25](https://img.shields.io/badge/ICML'25-f1b800) <br/> [Deliberation in Latent Space via Differentiable Cache Augmentation](https://arxiv.org/abs/2412.17747)                                           | <img width="700" alt="image" src="img/llm/2412_deliberation.png">   | -                                                                                          |
-| 2025/02 | ![ICML'25](https://img.shields.io/badge/ICML'25-f1b800) <br/> [Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning](https://arxiv.org/abs/2502.03275)                          | <img width="700" alt="image" src="img/llm/2502_token.png">          | -                                                                                          |
-| 2025/02 | ![ACL'25](https://img.shields.io/badge/ACL'25-f1b800) <br/> [SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs](https://arxiv.org/abs/2502.12134)                                               | <img width="700" alt="image" src="img/llm/2502_soft_cot.png">       | [Github](https://github.com/xuyige/SoftCoT)                                                |
-| 2025/02 | ![ICLR'25](https://img.shields.io/badge/ICLR'25-f1b800) <br/> [Reasoning with Latent Thoughts: On the Power of Looped Transformers](https://arxiv.org/pdf/2502.17416)                                          | <img width="700" alt="image" src="img/llm/2502_reasoning.png">      | -                                                                                          |
-| 2025/02 | ![EMNLP'25](https://img.shields.io/badge/EMNLP'25-f1b800) <br/>  [CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation](https://arxiv.org/abs/2502.21074)                            | <img width="700" alt="image" src="img/llm/2502_codi.png">           | [Github](https://github.com/zhenyi4/codi)                                                  |
-| 2025/03 | ![ICLR'25](https://img.shields.io/badge/ICLR'25-f1b800) <br/> [Reasoning to Learn from Latent Thoughts](https://arxiv.org/abs/2503.18866?)                                                                     | <img width="700" alt="image" src="img/llm/2503_bolt.png">           | [Github](https://github.com/ryoungj/BoLT)                                                  |
-| 2025/04 | [Efficient Pretraining Length Scaling](https://arxiv.org/abs/2504.14992)                                                                                                                                       | <img width="700" alt="image" src="img/llm/2504_phd.png">            | -                                                                                          |
-| 2025/05 | [SoftCoT++: Test-Time Scaling with Soft Chain-of-Thought Reasoning](https://arxiv.org/abs/2505.11484)                                                                                                          | <img width="700" alt="image" src="img/llm/2505_soft_cot_plus.png">  | [Github](https://github.com/xuyige/SoftCoT)                                                |
-| 2025/05 | ![NeurIPS'25](https://img.shields.io/badge/NeurIPS'25-f1b800) <br/> [Reasoning by Superposition: A Theoretical Perspective on Chain of Continuous Thought](https://arxiv.org/abs/2505.12514)                   | <img width="700" alt="image" src="img/llm/2505_reasoning.png">      | [Github](https://github.com/Ber666/reasoning-by-superposition)                             |
-| 2025/05 | [Enhancing Latent Computation in Transformers with Latent Tokens](https://arxiv.org/abs/2505.12629)                                                                                                            | <img width="700" alt="image" src="img/llm/2505_enhancing.png">      | -                                                                                          |                                                                               
-| 2025/05 | [Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space](https://arxiv.org/abs/2505.13308)                                                                                   | <img width="700" alt="image" src="img/llm/2505_latent_seek.png">    | [Github](https://github.com/bigai-nlco/LatentSeekhttps://github.com/bigai-nlco/LatentSeek) |         
-| 2025/05 | ![NeurIPS'25](https://img.shields.io/badge/NeurIPS'25-f1b800) <br/> [Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains](https://arxiv.org/abs/2505.16552)                         | <img width="700" alt="image" src="img/llm/2505_colar.png">          | [Github](https://github.com/xiaomi-research/colar)                                         |
-| 2025/05 | [LARES: Latent Reasoning for Sequential Recommendation](https://arxiv.org/abs/2505.16865)                                                                                                                      | <img width="700" alt="image" src="img/llm/2505_lares.png">          | -                                                                                          |
-| 2025/05 | [Hybrid Latent Reasoning via Reinforcement Learning](https://arxiv.org/abs/2505.18454)                                                                                                                         | <img width="700" alt="image" src="img/llm/2505_hrpo.png">           | [Github](https://github.com/thu-nics/C2C)                                                  |
-| 2025/05 | [System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts](https://arxiv.org/abs/2505.18962)                                                                                       | <img width="700" alt="image" src="img/llm/2505_system_15.png">      | -                                                                                          |
-| 2025/05 | ![ICML'25](https://img.shields.io/badge/ICML'25-f1b800) <br/> [Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration](https://arxiv.org/abs/2505.24688) | <img width="700" alt="image" src="img/llm/2505_soft.png">           | [Github](https://github.com/alickzhu/Soft-Reasoning)                                       |
-| 2025/06 | [Efficient Post-Training Refinement of Latent Reasoning in Large Language Models](https://arxiv.org/abs/2506.08552)                                                                                            | <img width="700" alt="image" src="img/llm/2506_efficient.png">      | [Github](https://github.com/anord-wang/Lateng-Reasoning)                                   |
-| 2025/07 | ![EMNLP'25](https://img.shields.io/badge/EMNLP'25-f1b800) <br/> [Latent Inter-User Difference Modeling for LLM Personalization](https://arxiv.org/abs/2507.20849)                                              | <img width="700" alt="image" src="img/llm/2507_dep.png">            | [Github](https://github.com/SnowCharmQ/DEP)                                                |
-| 2025/08 | [Bridging Search and Recommendation through Latent Cross Reasoning](https://www.arxiv.org/abs/2508.04152)                                                                                                      | <img width="700" alt="image" src="img/llm/2508_lcr_ser.png">        | -                                                                                          |
-| 2025/09 | [Decoding in Latent Spaces for Efficient Inference in LLM-based Recommendation](https://arxiv.org/abs/2509.11524)                                                                                              | <img width="700" alt="image" src="img/llm/2509_l2d.png">            | -                                                                                          |
-| 2025/09 | [LTA-thinker: Latent Thought-Augmented Training Framework for Large Language Models on Complex Reasoning](https://arxiv.org/abs/2509.12875)                                                                    | <img width="700" alt="image" src="img/llm/2509_lta_thinker.png">    | [Github](https://github.com/wangjiaqi886/LTA-Thinker)                                      |
-| 2025/09 | [SIM-CoT: Supervised Implicit Chain-of-Thought](https://arxiv.org/abs/2509.20317)                                                                                                                              | <img width="700" alt="image" src="img/llm/2509_sim_cot.png">        | [Github](https://github.com/InternLM/SIM-CoT)                                              |
-| 2025/09 | [Pretraining LLM with Latent Thoughts in Continuous Space](https://arxiv.org/abs/2509.23184)                                                                                                                   | <img width="700" alt="image" src="img/llm/2509_ponderlm2.png">      | [Github](https://github.com/LUMIA-Group/PonderLM-2)                                        |
-| 2025/09 | [MemGen: Weaving Generative Latent Memory for Self-Evolving Agents](https://arxiv.org/abs/2509.24704)                                                                                                          | <img width="700" alt="image" src="img/llm/2509_memgen.png">         | [Github](https://github.com/KANABOON1/MemGen)                                              |
-| 2025/09 | [LatentEvolve: Self-Evolving Test-Time Scaling in Latent Space](https://arxiv.org/abs/2509.24771)                                                                                                              | <img width="700" alt="image" src="img/llm/2509_latent_evolve.png">  | [Github](https://github.com/jins7/LatentEvolve)                                            |
-| 2025/09 | [MARCOS: Deep Thinking by Markov Chain of Continuous Thoughts](https://arxiv.org/abs/2509.25020)                                                                                                               | <img width="700" alt="image" src="img/llm/2509_marcos.png">         | -                                                                                          |
-| 2025/09 | [Latent Thinking Optimization: Your Latent Reasoning Language Model Secretly Encodes Reward Signals in Its Latent Thoughts](https://arxiv.org/abs/2509.26314)                                                  | <img width="700" alt="image" src="img/llm/2509_huginn.png">         | -                                                                                          |
-| 2025/10 | [KaVa: Latent Reasoning via Compressed KV-Cache Distillation](https://arxiv.org/abs/2510.02312)                                                                                                                | <img width="700" alt="image" src="img/llm/2510_kava.png">           | -                                                                                          |
-| 2025/10 | [Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization](https://arxiv.org/abs/2510.04182)                                                                                | <img width="700" alt="image" src="img/llm/2510_ltpo.png">           | [Github](https://github.com/ltpo2025/LTPO)                                                 |
-| 2025/10 | [LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning](https://arxiv.org/pdf/2510.04573)                                                                                                                   | <img width="700" alt="image" src="img/llm/2510_ladir.png">          | [Github](https://github.com/mk322/LaDiR)                                                   | 
-| 2025/10 | [Unlocking Out-of-Distribution Generalization in Transformers via Recursive Latent Space Reasoning](https://arxiv.org/abs/2510.14095)                                                                          | <img width="700" alt="image" src="img/llm/2510_ood.png">            | [Github](https://github.com/Awni00/algorithmic-generalization-transformer-architectures)   |
-| 2025/10 | [Latent Reasoning in LLMs as a Vocabulary-Space Superposition](https://arxiv.org/abs/2510.15522)                                                                                                               | <img width="700" alt="image" src="img/llm/2510_latent_sft.png">     | [Github](https://github.com/DJC-GO-SOLO/Latent-SFT)                                        |
-| 2025/10 | [SemCoT: Accelerating Chain-of-Thought Reasoning through Semantically-Aligned Implicit Tokens](https://arxiv.org/abs/2510.24940)                                                                               | <img width="700" alt="image" src="img/llm/2510_sem_cot.png">        | [Github](https://github.com/YinhanHe123/SemCoT)                                            |
-| 2025/10 | [Scaling Latent Reasoning via Looped Language Models](https://arxiv.org/abs/2510.25741)                                                                                                                        | <img width="700" alt="image" src="img/llm/2510_ouro.png">           | -                                                                                          |
-| 2025/11 | [SofT-GRPO: Surpassing Discrete-Token LLM Reinforcement Learning via Gumbel-Reparameterized Soft-Thinking Policy Optimization](https://arxiv.org/abs/2511.06411)                                               | <img width="700" alt="image" src="img/llm/2511_soft_cot.png">       | [Github](https://github.com/zz1358m/SofT-GRPO-master)                                      |
-| 2025/11 | [Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models](https://arxiv.org/abs/2511.08577)                                                                                            | <img width="700" alt="image" src="img/llm/2511_tah.png">            | [Github](https://github.com/apple/ml-clara)                                                | 
-| 2025/11 | [SpiralThinker: Latent Reasoning through an Iterative Process with Text-Latent Interleaving](https://arxiv.org/abs/2511.08983)                                                                                 | <img width="700" alt="image" src="img/llm/2511_spiral_thinker.png"> | -                                                                                          |
-| 2025/11 | [Improving Latent Reasoning in LLMs via Soft Concept Mixing](https://arxiv.org/abs/2511.16885)                                                                                                                 | <img width="700" alt="image" src="img/llm/2511_scm.png">            | -                                                                                          |
-| 2025/11 | [CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning](https://arxiv.org/abs/2511.18659)                                                                                                  | <img width="700" alt="image" src="img/llm/2511_clara.png">          | [Github](https://github.com/apple/ml-clara)                                                | 
-| 2025/11 | [Learning When to Stop: Adaptive Latent Reasoning via Reinforcement Learning](https://arxiv.org/abs/2511.21581)                                                                                                | <img width="700" alt="image" src="img/llm/2511_learning.png">       | [Github](https://github.com/apning/adaptive-latent-reasoning)                              |
+### Algorithmic Improvement
 
+| Year | Paper Title | Affiliation | Conference | Code |
+|:---:|---|---|:---:|:---:|
+| 2023 | [Fine-Tuning Language Models with Just Forward Passes](https://proceedings.neurips.cc/paper_files/paper/2023/file/a627810151be4d13f907ac898ff7e948-Paper-Conference.pdf) | Princeton | NIPS | [Github](https://github.com/princeton-nlp/MeZO) |
+| 2024 | [AdaZeta: Adaptive Zeroth-Order Tensor-Train Adaption for Memory-Efficient Large Language Models Fine-Tuning](https://aclanthology.org/2024.emnlp-main.56.pdf) | UCSB/Amazon | EMNLP | [Github](https://github.com/yifanycc/AdaZeta) |
+| 2024 | [Variance-reduced zeroth-order methods for fine-tuning language models](https://arxiv.org/pdf/2404.08080) | Amazon | ICML | [Github](https://github.com/amazon-science/mezo_svrg) |
+| 2024 | [DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training](https://openreview.net/pdf?id=qBWhjsNPEY) | MSU | ICLR | [Github](https://github.com/OPTML-Group/DeepZero) |
+| 2024 | [Revisiting Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning: A Benchmark](https://arxiv.org/pdf/2402.11592) | UNC | ICML | [Github](https://github.com/ZO-Bench/ZO-LLM) |
+| 2024 | [ReLIZO: Sample Reusable Linear Interpolation-based Zeroth-order Optimization](https://proceedings.neurips.cc/paper_files/paper/2024/file/1b3750390ca8b931fb9ca988647940cb-Paper-Conference.pdf) | SJTU | NIPS | [Github](https://github.com/Thinklab-SJTU/ReLIZO) |
+| 2025 | [MaZO: Masked zeroth-order optimization for multi-task fine-tuning of large language models](https://arxiv.org/pdf/2502.11513?) | UCSB/Amazon | EMNLP |N/A |
+| 2025 | [OAT-Rephrase: Optimization-Aware Training Data Rephrasing for Zeroth-Order LLM Fine-Tuning](https://arxiv.org/pdf/2506.17264) | Stevens Institute of Technology | Arxiv |N/A |
+| 2025 | [HELENE: Hessian Layer-wise Clipping and Gradient Annealing for Accelerating Fine-Tuning LLM with Zeroth-Order Optimization](https://arxiv.org/pdf/2411.10696) | University of Georgia | EMNLP |N/A |
+| 2025 | [Harmony in divergence: Towards fast, accurate, and memory-efficient zeroth-order llm fine-tuning](https://arxiv.org/pdf/2502.03304) | University of Georgia | NIPS |N/A |
+| 2025 | [On the Optimal Construction of Unbiased Gradient Estimators for Zeroth-Order Optimization](https://arxiv.org/pdf/2510.19953) | UMD | NIPS | [Github](https://github.com/Skilteee/DiZO) |
+| 2025 | [Second-Order Fine-Tuning without Pain for LLMs: a Hessian Informed Zeroth-Order Optimizer](https://arxiv.org/pdf/2402.15173) | A*star | ICLR | [Github](https://github.com/Yanjun-Zhao/HiZOO) |
+| 2025 | [Enhancing Zeroth-order Fine-tuning for Language Models with Low-rank Structures](https://arxiv.org/pdf/2410.07698) | PKU | ICLR | [Github](https://github.com/optsuite/LOZO) |
+| 2025 | [PaZO: Preconditioned Accelerated Zeroth-Order Optimization for Fine-Tuning LLMs](https://openreview.net/pdf?id=b2IU6QOOfo) | PKU | NIPS | [Github](https://github.com/thos314/PaZO-Preconditioned-Accelerated-Zeroth-Order-Optimization-for-Fine-Tuning-LLMs) |
+| 2025 | [PseuZO: Pseudo-Zeroth-Order Algorithm for Training Deep Neural Networks](https://openreview.net/pdf?id=tM4cHBD7kD) | PKU | NIPS | [Github](https://github.com/YangBigMn/PseuZO) |
+| 2025 | [MUZO: Leveraging Multiple Queries and Momentum for Zeroth-Order Fine-Tuning of Large Language Models](https://aclanthology.org/2025.emnlp-main.432.pdf) | SJTU | EMNLP |N/A |
 
-### VLM-based
+### Hardware Acceleration
 
-| Date     | Paper Title                                                                                                                                                                | Introduction                                                   | Code                                                          |
-|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|---------------------------------------------------------------|
-| 2024/12  | ![CVPR'25](https://img.shields.io/badge/CVPR'25-f1b800) <br/> [Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](https://arxiv.org/abs/2412.03548) | <img width="700" alt="image" src="img/vlm/2412_aurora.png">    | [Github](https://github.com/mahtabbigverdi/Aurora-perception) |
-| 2025/01  | [Efficient Reasoning with Hidden Thinking](https://arxiv.org/pdf/2501.19201)                                                                                               | <img width="700" alt="image" src="img/vlm/2501_heima.png">     | [Github](https://github.com/shawnricecake/Heima)              |
-| 2025/06  | [Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens](https://arxiv.org/abs/2506.17218)                                                         | <img width="700" alt="image" src="img/vlm/2506_mirage.png">    | [Github](https://github.com/UMass-Embodied-AGI/Mirage)        |
-| 2025/08  | [Multimodal Chain of Continuous Thought for Latent-Space Reasoning in Vision-Language Models](https://arxiv.org/abs/2508.12587)                                            | <img width="700" alt="image" src="img/vlm/2508_mcout.png">     | -                                                             | 
-| 2025/09  | [Latent Visual reasoning](https://arxiv.org/abs/2509.24251)                                                                                                                | <img width="700" alt="image" src="img/vlm/2509_lvr.png">       | -                                                             |
-| 2025/10  | [Reasoning in the Dark: Interleaved Vision-Text Reasoning in Latent Space](https://arxiv.org/abs/2510.12603)                                                               | <img width="700" alt="image" src="img/vlm/2510_ivt_lr.png">    | [Github](https://github.com/FYYDCC/IVT-LR)                    |
-| 2025/10  | [Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](https://arxiv.org/abs/2510.18632)                                                     | <img width="700" alt="image" src="img/vlm/2510_think.png">     | [Github](https://github.com/zhangquanchen/3DThinker)          |
-| 2025/10  | [Latent Chain-of-Thought for Visual Reasoning](https://arxiv.org/abs/2510.23925)                                                                                           | <img width="700" alt="image" src="img/vlm/2510_lacot.png">     | [Github](https://github.com/heliossun/LaCoT)                  |
-| 2025/10  | [Latent Sketchpad: Sketching Visual Thoughts to Elicit Multimodal Reasoning in MLLMs](https://arxiv.org/abs/2510.24514)                                                    | <img width="700" alt="image" src="img/vlm/2510_sketchpad.png"> | [Github](https://github.com/hwanyu112/Latent-Sketchpad)       |
-| 2025/11  | [CoCoVa: Chain of Continuous Vision-Language Thought for Latent Space Reasoning](https://arxiv.org/abs/2511.02360)                                                         | <img width="700" alt="image" src="img/vlm/2511_cocova.png">    | -                                                             |
-| 2025/11  | [VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Model](https://www.arxiv.org/abs/2511.11007)                                                            | <img width="700" alt="image" src="img/vlm/2511_vismem.png">    | [Github](https://github.com/YU-deep/VisMem)                   |
-| 2025/11  | [Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens](https://arxiv.org/abs/2511.19418)                                           | <img width="700" alt="image" src="img/vlm/2511_covt.png">      | [Github](https://github.com/Wakals/CoVT)                      |
-| 2025/11  | [Monet: Reasoning in Latent Visual Space Beyond Image and Language](https://arxiv.org/abs/2511.21395)                                                                      | <img width="700" alt="image" src="img/vlm/2511_monet.png">     | [Github](https://github.com/NOVAglow646/)                     |
-| 2025/12  | [Interleaved Latent Visual Reasoning with Selective Perceptual Modeling](https://arxiv.org/abs/2512.05665v1)                                                               | <img width="700" alt="image" src="img/vlm/2512_ilvr.png">      | [Github](https://github.com/XD111ds/ILVR)                     |
-| 2025/12  | [ReLaX: Reasoning with Latent Exploration for Large Reasoning Models](https://www.arxiv.org/abs/2512.07558)                                                                | <img width="700" alt="image" src="img/vlm/2512_relax.png">     | -                                                             |
-| 2025/12  | [Mull-Tokens: Modality-Agnostic Latent Thinking](https://arxiv.org/abs/2512.10941)                                                                                         | <img width="700" alt="image" src="img/vlm/2512_mull.png">      | -                                                             |
+| Year | Paper Title | Affiliation | Conference | Code |
+|:---:|---|---|:---:|:---:|
+| 2025 | [QuZO: Quantized zeroth-order fine-tuning for large language models](https://arxiv.org/pdf/2502.12346) | UCSB/Amazon | EMNLP | N/A |
+| 2025 | [MobiZO: Enabling Efficient LLM Fine-Tuning at the Edge via Inference Engines](https://arxiv.org/pdf/2409.15520?) | Amazon | EMNLP | [Github](https://github.com/leigao97/MobiZO) |
+| 2025 | [Zeroth-Order Fine-Tuning of LLMs with Transferable Static Sparsity](https://openreview.net/pdf?id=myYzr50xBh) | Stevens Institute of Technology | ICLR | [Github](https://github.com/GarlGuo/SensZOQ)* |
+| 2025 | [Perturbation-efficient zeroth-order optimization for hardware-friendly on-device training](https://arxiv.org/pdf/2504.20314) | University of Georgia | ICCAD |  N/A |
+| 2025 | [Memory-Efficient Backpropagation for Fine-Tuning LLMs on Resource-Constrained Mobile Devices](https://aclanthology.org/2025.emnlp-industry.52.pdf) | Apple | EMNLP | [Github](https://github.com/apple/ml-mebp) |
+| 2025 | [QZO: Fine-tuning Quantized Neural Networks with Zeroth-order Optimization](https://arxiv.org/pdf/2505.13430) | HKBU | arxiv | [Github](https://github.com/maifoundations/QZO) |
+| 2025 | [Sparse MeZO: Less Parameters for Better Performance in Zeroth-Order LLM Fine-Tuning](https://arxiv.org/pdf/2402.15751) | NUS | ICLR | N/A |
+| 2026 | [FZOO: Fast Zeroth-Order Optimizer for Fine-Tuning Large Language Models towards Adam-Scale Speed](https://arxiv.org/abs/2506.09034) | A*star | Arxiv | [Github](https://github.com/DKmiyan/FZOO) |
 
+  *: Empty GitHub repository
 
-### MAS-based
-| Date     | Paper Title                                                                                                                                               | Introduction                                                     | Code                                             |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------|
-| 2025/10  | [Cache-to-Cache: Direct Semantic Communication Between Large Language Model](https://arxiv.org/abs/2510.03215)                                            | <img width="700" alt="image" src="img/mas/2510_c2c.png">         | [Github](https://github.com/thu-nics/C2C)        |
-| 2025/10  | ![NeurIPS'25](https://img.shields.io/badge/NeurIPS'25-f1b800) <br/> [Thought Communication in Multiagent Collaboration](https://arxiv.org/abs/2510.20733) | <img width="700" alt="image" src="img/mas/2510_thoughtcomm.png"> | -                                                |
-| 2025/11  | [Enabling Agents to Communicate Entirely in Latent Space](https://arxiv.org/abs/2511.09149)                                                               | <img width="700" alt="image" src="img/mas/2511_interlat.png">    | -                                                |
-| 2025/11  | [Latent Collaboration in Multi-Agent Systems](https://arxiv.org/abs/2511.20639)                                                                           | <img width="700" alt="image" src="img/mas/2511_latent_mas.png">  | [Github](https://github.com/Gen-Verse/LatentMAS) |
+### Application
 
-
+| Year | Paper Title | Affiliation | Conference | Code |
+|:---:|---|---|:---:|:---:|
+| 2017 | [ZOO: Zeroth Order Optimization based Black-box Attacks to Deep Neural Networks without Training Substitute Models](https://arxiv.org/pdf/1708.03999) | IBM/UCD | AIsec | [Github](https://github.com/huanzhang12/ZOO-Attack) |
+| 2025 | [Towards memory-efficient and sustainable machine unlearning on edge using zeroth-order optimizer](https://dl.acm.org/doi/pdf/10.1145/3716368.3735273) | University of Georgia | GLSVLSI |  N/A |
+| 2025 | [Private Fine-tuning of Large Language Models with Zeroth-order Optimization](https://arxiv.org/pdf/2401.04343) | Apple | TMLR | N/A |
+| 2025 | [ZO-ASR: Zeroth-Order Fine-Tuning of Speech Foundation Models without Back-Propagation](https://arxiv.org/pdf/2512.01267) | SJTU | ASRU | [Github](https://github.com/Gatsby-web/ZO-ASR) |
+| 2026 | [Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models](https://arxiv.org/pdf/2506.12409) | NJU | AAAI | N/A |
+| 2026 | [More Than Memory Savings: Zeroth-Order Optimization Mitigates Forgetting in Continual Learning](https://arxiv.org/pdf/2510.21019)| UNCC | WACV | [Github](https://arxiv.org/pdf/2510.21019)|
